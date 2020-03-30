@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Yamiyami Foodportal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="yamiyami Foodportal" />
+  <meta name="keywords" content="yamiyami Foodportal" />
+  <meta content="Shreethemes" name="author" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <!-- Magnific -->
+  <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+  <!-- Icon -->
+  <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+  <!-- SLICK SLIDER -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.css" />
+  <link rel="stylesheet" href="css/owl.transitions.css" />
+  <!-- FLEXSLIDER -->
+  <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+  <link href="css/jquery.timepicker.min.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css" />
+  <!-- Custom Css -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="fonts/stylesheet.css" rel="stylesheet">
+  <link href="css/cart.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  
+</head>
+<div id="preloader">
+  <div id="status">
+    <div class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+  </div>
+</div>
+<div id="app"></div>
+</html>
+<script>
+
+const loadScriptsAfterVueRender = (scripts) => {
+  return new Promise(
+    async (resolve) => {
+      for (const scriptSrc of scripts) {
+        await (new Promise((resolve, reject) => {
+          var ele = document.createElement('script')
+          ele.src = scriptSrc
+          document.body.appendChild(ele)
+          ele.addEventListener('load', () => {
+            resolve(true)
+          })
+        }));
+      }
+      resolve()
+    }
+  )
+};
+// eslint-disable-next-line camelcase
+const need_scripts_after_load_vue = [
+  // javascript
+  'js/jquery.min.js',
+  'js/bootstrap.bundle.min.js',
+  'js/jquery.easing.min.js',
+  'js/scrollspy.min.js',
+  // SLIDER
+  'js/owl.carousel.min.js',
+  'js/owlcarousel.init.js',
+  // Portfolio
+  'js/jquery.magnific-popup.min.js',
+  'js/isotope.js',
+  'js/portfolio-filter.js',
+  'js/magnific.init.js',
+  // FLEX SLIDER
+  'js/jquery.flexslider-min.js',
+  'js/flexslider.init.js',
+  // Parallax JS
+  'js/parallax.js',
+  // Datepicker
+  'js/moment.js',
+  'js/jquery.timepicker.min.js',
+  'js/bootstrap-datepicker.min.js',
+  'js/datetimepicker.init.js',
+  // Main Js
+  'js/script.js',
+  'js/link-event.js',
+  // Cookie Js
+  'js/cookie.js'
+]
+loadScriptsAfterVueRender(need_scripts_after_load_vue)
+  .then(
+    function () {
+      // load Completed
+      $('#preloader').delay(350).fadeOut('slow');
+      $('#status').fadeOut();
+      $('body').delay(350).css({
+        'overflow': 'visible'
+      })
+    }
+  )
+</script>

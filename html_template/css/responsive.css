@@ -1,0 +1,76 @@
+@media (min-width: 1281px) and (max-width: 1366px){
+	
+}
+
+
+@media (min-width: 1200px) and (max-width: 1280px){
+	
+}
+
+@media (min-width: 1080px) and (max-width: 1199px){
+	p{font-size: 13px;}
+	.carousel-indicators {top: 72px;}
+	.sec-head{margin-top: 0px;}
+	.fourbox{position: absolute;right: -30%;top: -50px;}
+	.pos-mrgn{margin-top: 0px;}
+	.carousel-caption {top: 70px;}
+	.browser-screen img{bottom: -42%;}
+}
+/***************************************************/
+/************** iPad Pro 1024px *****************/
+/***************************************************/
+@media (min-width: 992px) and (max-width: 1079px){
+	.restaurant-wraper .navbar-custom .navbar-nav li a {
+		letter-spacing: 1px;
+		font-size: 11px;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: .1rem;
+		padding-left: .1rem;
+	}
+	p{font-size: 11px;}
+	.carousel-indicators {top: 72px;}
+	.sec-head{margin-top: 0px;}
+	.fourbox{position: absolute;right: -30%;top: -50px;}
+	.pos-mrgn{margin-top: 0px;}
+	.carousel-caption {top: 70px;}
+	.browser-screen img{bottom: -25%;}
+}
+
+/***************************************************/
+/************** iPad 768px *****************/
+/***************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption{right: 15%;left: 3%;padding-top: 65px;}
+	.nav-slide .carousel-indicators{left: 36%;margin-right: 2%;}
+	.carousel-indicators a{font-size: 12px;}
+	.carousel-indicators{top: 103px;}
+	.pos-logo{margin-top: 85px;}
+	p{font-size: 11px;}
+	.carousel-indicators {top: 72px;}
+	.sec-head{margin-top: 0px;}
+	.fourbox{position: absolute;right: -30%;top: -50px;}
+	.pos-mrgn{margin-top: 0px;}
+	.carousel-caption {top: 70px;}
+	.browser-screen img{bottom: -25%;}
+}
+
+
+
+/***************************************************/
+/************** iPhone6 Plus 414px *****************/
+/***************************************************/
+@media (min-width: 481px) and (max-width: 767px){
+	.nav-link {display: block;padding: .5rem 0rem !important;font-size: 13px;}
+	.button-checkbox .btn{padding: 10px 12px;}
+	.pos-pop-up-form form{padding: 20px 0px 0px;}
+}
+
+/***************************************************/
+/************** iPhone6 Plus 414px *****************/
+/***************************************************/
+@media (min-width: 320px) and (max-width: 480px) {
+	
+}
+
+

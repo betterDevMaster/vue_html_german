@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en"><meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <meta charset="utf-8" />
+        <title>Yamiyami Foodportal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="yamiyami Foodportal" />
+        <meta name="keywords" content="yamiyami Foodportal" />
+        <meta content="Shreethemes" name="author" />
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!-- Magnific -->
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+        <!-- Icon -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css"/>
+        <!-- SLICK SLIDER -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="css/owl.theme.css"/>
+        <link rel="stylesheet" href="css/owl.transitions.css"/>
+        <!-- FLEXSLIDER -->
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css"/>
+        <link href="css/jquery.timepicker.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css"/>
+        <!-- Custom Css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="fonts/stylesheet.css" rel="stylesheet">
+		<link href="css/cart.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+    </head>
+
+    <body class="restaurant-wraper">
+        <!-- Start Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="rect1"></div>
+                    <div class="rect2"></div>
+                    <div class="rect3"></div>
+                    <div class="rect4"></div>
+                    <div class="rect5"></div>
+                </div><!--end spinner-->
+            </div><!--end status-->
+        </div><!--end preloader-->
+        <!-- End Loader -->
+		
+		<div class="top-head">
+			<nav class="navbar navbar-expand-lg navbar-custom navbar-light fixed-top sticky">
+				<div class="container-fluid">
+					 <a class="navbar-brand" href="index.html">
+						<img src="images/resto/logo-light.png" class="l-dark" height="50" alt="">
+						<img src="images/resto/logo-light.png" class="l-light" height="50" alt="">
+					 </a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="mdi mdi-menu"></span>
+					</button>
+
+					<div class="collapse navbar-collapse">
+						<ul class="navbar-nav nav-justified">
+							<li class="nav-item">
+								<a class="nav-link" href="#aboutus">About Us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#kassensystem">Kassensystem</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#mobileapp">Mobile App</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#onlineshops">Online Shops</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Kontak</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="shop.html">Category</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a href="#" id="cart" style="display: block;" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a>
+								<ul class="dropdown-menu" style="height: 490px;">
+									<div class="wrap cf">
+									  <div class="heading cf">
+										<h4 style="margin-top: -12px;margin-bottom: 0em;">My Cart</h4>
+										<a href="#" class="continue" style="background-color: #82ca9c;padding: 5px 9px;margin-top: -37px;">Continue Shopping</a>
+									  </div>
+									  <div class="cart">
+										<ul class="cartWrap" style="padding-right: 15px;">
+										  <li class="items odd">
+
+										<div class="infoWrap"> 
+											<div class="cartSection">
+											<img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+											  <p class="itemNumber">#QUE-007544-002</p>
+											  <h3>Item Name 1</h3>
+											   <p> <input type="text"  class="qty" placeholder="3"/> x $5.00</p>
+											  <p class="stockStatus"> In Stock</p>
+											</div> 
+											<div class="prodTotal cartSection">
+											  <p>$15.00</p>
+											</div>
+												  <div class="cartSection removeWrap">
+											   <a href="#" class="remove">x</a>
+											</div>
+										  </div>
+										  </li>
+										  <li class="items odd">
+										   <div class="infoWrap"> 
+											<div class="cartSection">
+											 <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+											  <p class="itemNumber">#QUE-007544-002</p>
+											   <h3>Item Name 1</h3>
+											    <p><input type="text"  class="qty" placeholder="3"/>x $5.00</p>
+											  <p class="stockStatus out"> Out of Stock</p>
+											</div>
+											<div class="prodTotal cartSection">
+											  <p>$15.00</p>
+											</div>
+											<div class="cartSection removeWrap">
+											   <a href="#" class="remove">x</a>
+											</div>
+										   </div>
+										  </li>
+										  <li class="items odd">
+										   <div class="infoWrap"> 
+											<div class="cartSection">
+											 <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+											  <p class="itemNumber">#QUE-007544-002</p>
+											   <h3>Item Name 1</h3>
+											    <p><input type="text"  class="qty" placeholder="3"/>x $5.00</p>
+											  <p class="stockStatus out"> Out of Stock</p>
+											</div>
+											<div class="prodTotal cartSection">
+											  <p>$15.00</p>
+											</div>
+											<div class="cartSection removeWrap">
+											   <a href="#" class="remove">x</a>
+											</div>
+										   </div>
+										  </li>
+										  <li class="items odd">
+										   <div class="infoWrap"> 
+											<div class="cartSection">
+											 <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+											  <p class="itemNumber">#QUE-007544-002</p>
+											   <h3>Item Name 1</h3>
+											    <p><input type="text"  class="qty" placeholder="3"/>x $5.00</p>
+											  <p class="stockStatus out"> Out of Stock</p>
+											</div>
+											<div class="prodTotal cartSection">
+											  <p>$15.00</p>
+											</div>
+											<div class="cartSection removeWrap">
+											   <a href="#" class="remove">x</a>
+											</div>
+										   </div>
+										  </li>
+										  <!--<li class="items even">Item 2</li>-->
+										</ul>
+									  </div>
+
+									  <div class="promoCode"><label for="promo">Have A Promo Code?</label><input type="text" name="promo" placholder="Enter Code"/>
+									  <a href="#" class="btn" style="font-size: 20px;background-color: #82ca9c;padding: 2px 0px;"></a></div>
+
+									  <div class="subtotal cf">
+										<ul>
+										  <li class="totalRow"><span class="label">Subtotal</span><span class="value">$35.00</span></li>
+
+											  <li class="totalRow"><span class="label">Shipping</span><span class="value">$5.00</span></li>
+
+												<li class="totalRow"><span class="label">Tax</span><span class="value">$4.00</span></li>
+												<li class="totalRow final"><span class="label">Total</span><span class="value">$44.00</span></li>
+										  <li class="totalRow"><a href="#" class="btn continue" style="background-color: #82ca9c;padding: 2px 7px">Checkout</a></li>
+										</ul>
+									  </div>
+									</div>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		
+		<div id="aboutus">
+			<div id="carouselExampleIndicators" class="carousel slide nav-slide" style="margin-top: 50px;"><!--data-ride="carousel"-->
+				<div class="row">
+					<div class="col-lg-3" style="position: relative;"></div>
+					<div class="col-lg-9">
+						<ol class="carousel-indicators mt-4">
+							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="width: 145px;"><a href="#" style="padding: 10px;">About Yamiyami</a></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="1" style="width: 107px;"><a href="#" style="padding: 10px;">Our Service</a></li>
+						  </ol>
+					</div>
+				</div>
+			    <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img class="d-block w-100" src="images/slider.jpg" alt="First slide">
+					 <div class="carousel-caption d-none d-md-block">
+						 <div class="row">
+							 <div class="col-lg-7 col-md-12">
+								 <h4 class="sec-head">The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-5 col-md-12 four-box-align">
+								 <div class="fourbox">
+									 <div class="row mb-4">
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/del-service.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/dinners.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+									 <div class="row">
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/online-reservation.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/party-service.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/resto/sl-2.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+						 <div class="row">
+							 <div class="col-lg-7 col-md-12">
+								 <h4 class="sec-head">The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-5 col-md-12 four-box-align">
+								 <div class="fourbox">
+									 <div class="row mb-4">
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/del-service.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/dinners.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+									 <div class="row">
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/online-reservation.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-4">
+											 <div class="slide-ico-box">
+												 <img src="images/party-service.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+								 </div>
+							 </div>
+						 </div>
+					 </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		  <div id="kassensystem">
+			<h1 style="margin-top: 15px;margin-bottom: 10px;text-align: center;">POS System</h1>
+			<div id="carouselExampleIndicators2" class="carousel slide nav-slide"><!--data-ride="carousel"-->
+				<div class="row">
+					<div class="col-lg-3" style="position: relative;">
+						<!--<a class="nav-link" href="#" style="position: absolute;z-index: 100;"><img src="images/whpos.png" class="l-light pos-logo" height="65" alt="" style="margin-top: 25px;"></a>-->
+					</div>
+					<div class="col-lg-9">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active" style="width: 255px;"><a href="#" style="padding: 10px;">Kassensystem für Lieferdienste</a></li>
+							<li data-target="#carouselExampleIndicators2" data-slide-to="1" style="width: 215px;"><a href="#" style="padding: 10px;">Kassensystem für Imbisse</a></li>
+							<li data-target="#carouselExampleIndicators2" data-slide-to="2" style="width: 250px;"><a href="#" style="padding: 10px;">Kassensystem für Restaurants</a></li>
+						  </ol>
+					</div>
+				</div>
+			    <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img class="d-block w-100" src="images/pos-delivery-bg.jpg" alt="First slide">
+					 <div class="carousel-caption d-none d-md-block">
+						 <div class="row pos-mrgn">
+							 <div class="col-lg-6 col-md-12">
+								 <div class="row" style="margin-bottom: 25px;">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/apple.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/microsoft.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/tap.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/pos-delivery.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/pos-dinner-bg.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+						 <div class="row" style="margin-top: 25px;">
+							 <div class="col-lg-6 col-md-12">
+								 <div class="row pos-mrgn">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/apple.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/microsoft.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/tap.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/pos-dinner.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/pos-restaurant-bg.jpg" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+						 <div class="row pos-mrgn">
+							 <div class="col-lg-6 col-md-12">
+								 <div class="row" style="margin-bottom: 25px;">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/apple.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/microsoft.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/tap.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/pos-restaurant.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+			
+		  <div id="mobileapp">
+			<h1 style="margin-top: 15px;margin-bottom: 10px;text-align: center;">Mobile Apps</h1>
+				<div id="carouselExampleIndicators4" class="carousel slide nav-slide"><!--data-ride="carousel"-->
+					<div class="row">
+						<div class="col-lg-3" style="position: relative;">
+							<!--<a class="nav-link" href="#" style="position: absolute;z-index: 100;"><img src="images/mobile-app.png" class="l-light pos-logo" height="45" alt=""></a>-->
+						</div>
+						<div class="col-lg-9">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators4" data-slide-to="0" class="active" style="width: 151px;"><a href="#" style="padding: 10px;">CEO Applications</a></li>
+								<li data-target="#carouselExampleIndicators4" data-slide-to="1" style="width: 165px;"><a href="#" style="padding: 10px;">Driver Applications</a></li>
+								<li data-target="#carouselExampleIndicators4" data-slide-to="2" style="width: 170px;"><a href="#" style="padding: 10px;">Waiter Applications</a></li>
+								<li data-target="#carouselExampleIndicators4" data-slide-to="3" style="width: 160px;"><a href="#" style="padding: 10px;">Table Applications</a></li>
+							  </ol>
+						</div>
+					</div>
+					<div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img class="d-block w-100" src="images/mobileapp-bg.jpg" alt="First slide">
+						 <div class="carousel-caption d-none d-md-block">
+							 <div class="row pos-mrgn">
+								 <div class="col-lg-6 col-md-12">
+									 <div class="row" style="margin-bottom: 25px;">
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/apple.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/android.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+									 <h4>The best food delivery app</h4>
+									 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 </div>
+								 <div class="col-lg-6 col-md-12">
+									 <img src="images/mobile-apps.png" alt="" width="90%" class="float-right mobile-mockup">
+								 </div>
+							 </div>
+						 </div>
+					</div>
+					<div class="carousel-item">
+					  <img class="d-block w-100" src="images/mobileapp-bg.jpg" alt="Second slide">
+						<div class="carousel-caption d-none d-md-block">
+							 <div class="row pos-mrgn">
+								 <div class="col-lg-6 col-md-12">
+									 <div class="row" style="margin-bottom: 25px;">
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/apple.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/android.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+									 <h4>The best food delivery app</h4>
+									 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 </div>
+								 <div class="col-lg-6 col-md-12">
+									 <img src="images/mobile-apps.png" alt="" width="90%" class="float-right mobile-mockup">
+								 </div>
+							 </div>
+						 </div>
+					</div>
+					<div class="carousel-item">
+					  <img class="d-block w-100" src="images/mobileapp-bg.jpg" alt="Third slide">
+						<div class="carousel-caption d-none d-md-block">
+							 <div class="row pos-mrgn">
+								 <div class="col-lg-6 col-md-12">
+									 <div class="row" style="margin-bottom: 25px;">
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/apple.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/android.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+									 <h4>The best food delivery app</h4>
+									 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 </div>
+								 <div class="col-lg-6 col-md-12">
+									 <img src="images/mobile-apps.png" alt="" width="90%" class="float-right mobile-mockup">
+								 </div>
+							 </div>
+						 </div>
+					</div>
+					<div class="carousel-item">
+					  <img class="d-block w-100" src="images/mobileapp-bg.jpg" alt="Third slide">
+						<div class="carousel-caption d-none d-md-block">
+							 <div class="row pos-mrgn">
+								 <div class="col-lg-6 col-md-12">
+									 <div class="row" style="margin-bottom: 25px;">
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/apple.png" alt="" width="100%">
+											 </div>
+										 </div>
+										 <div class="col-md-3">
+											 <div class="slide-ico-box">
+												 <img src="images/android.png" alt="" width="100%">
+											 </div>
+										 </div>
+									 </div>
+									 <h4>The best food delivery app</h4>
+									 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+								 </div>
+								 <div class="col-lg-6 col-md-12">
+									 <img src="images/mobile-apps.png" alt="" width="90%" class="float-right mobile-mockup">
+								 </div>
+							 </div>
+						 </div>
+					</div>
+				  </div>
+				</div>
+		  </div>
+		
+		  <div id="onlineshops">
+			<h1 style="margin-top: 15px;margin-bottom: 10px;text-align: center;">Online Shops</h1>
+			<div id="carouselExampleIndicators3" class="carousel slide nav-slide"><!--data-ride="carousel"-->
+				<div class="row">
+					<div class="col-lg-3" style="position: relative;">
+						<!--<a class="nav-link" href="#" style="position: absolute;z-index: 100;"><img src="images/online-shop.png" class="l-light pos-logo" height="45" alt="" style="margin-top: 25px;"></a>-->
+					</div>
+					<div class="col-lg-9">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active" style="width: 125px;"><a href="#" style="padding: 10px;">Delivery Shop</a></li>
+							<li data-target="#carouselExampleIndicators3" data-slide-to="1" style="width:115px;"><a href="#" style="padding: 10px;">Dinner Shop</a></li>
+							<li data-target="#carouselExampleIndicators3" data-slide-to="2" style="width: 160px;"><a href="#" style="padding: 10px;">PartyService Shop</a></li>
+							<li data-target="#carouselExampleIndicators3" data-slide-to="3" style="width: 155px;"><a href="#" style="padding: 10px;">Restaurants Shop</a></li>
+						  </ol>
+					</div>
+				</div>
+			    <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img class="d-block w-100" src="images/delivery-shop-bg.jpg" alt="First slide">
+					 <div class="carousel-caption d-none d-md-block">
+						 <div class="row" style="margin-top: 25px;">
+							 <div class="col-lg-6 col-md-12">
+								 <div class="row" style="margin-bottom: 25px;">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/edge.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/firefox.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/resto/delivery-shop.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/dinner-shop-bg.jpg" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+						 <div class="row" style="margin-top: 25px;">
+							 <div class="col-lg-6 col-md-12">
+								 <div class="row" style="margin-bottom: 25px;">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/edge.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/firefox.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/resto/dinner-shop.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/partyservice-shop-bg.jpg" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+						 <div class="row" style="margin-top: 25px;">
+							 <div class="col-lg-6 col-md-12">
+								  <div class="row" style="margin-bottom: 25px;">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/edge.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/firefox.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/resto/partyservice-shop.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+				<div class="carousel-item">
+				  <img class="d-block w-100" src="images/restaurant-shop-bg.jpg" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+						 <div class="row" style="margin-top: 25px;">
+							 <div class="col-lg-6 col-md-12">
+								  <div class="row" style="margin-bottom: 25px;">
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/chrome.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/edge.png" alt="" width="100%">
+										 </div>
+									 </div>
+									 <div class="col-md-3">
+										 <div class="slide-ico-box">
+											 <img src="images/firefox.png" alt="" width="100%">
+										 </div>
+									 </div>
+								 </div>
+								 <h4>The best food delivery app</h4>
+								 <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App for desktop and mobile.</p>
+							 </div>
+							 <div class="col-lg-6 col-md-12 browser-screen" style="position: relative;">
+								 <img src="images/resto/restaurant-shop.jpg" alt="" class="float-right">
+							 </div>
+						 </div>
+					 </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<div style="background-color: #fff;height: 30px;"></div>
+		<div id="contact">
+		<section class="section bg-light sec-pt-70" id="contact1">
+            <div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<h3 class="mb-3"><b>Contact Us</b></h3>
+						<div class="coninfo-box">
+							<h4>Address</h4>
+							<p>901 East E Street, Wilmington, CA 90744</p>
+						</div>
+						<div class="coninfo-box">
+							<h4>Email</h4>
+							<p>mail@demolink.org</p>
+						</div>
+						<div class="coninfo-box">
+							<h4>Phone No.</h4>
+							<p>(800)-2345-6789</p>
+						</div>
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<form class="contact-form">
+							<h3 class="mb-3"><b>Get In Touch</b></h3>
+							<div class="row">
+								<div class="col-lg-6 col-sm-6 col-xs-12">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="First Name">
+									</div>
+								</div>
+								<div class="col-lg-6 col-sm-6 col-xs-12">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="col-lg-6 col-sm-6 col-xs-12">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Email Address">
+									</div>
+								</div>
+								<div class="col-lg-6 col-sm-6 col-xs-12">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Phone number">
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-group">
+										<textarea class="form-control" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="col-12">
+									<a href="#" class="btn con-button">SEND MESSAGE <span style="margin-left: 15px;border-left: 1px solid #808080;padding-left: 20px;"></span></a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+            </div>
+        </section>
+		</div>
+		
+        <!-- Start Footer -->
+        <footer class="footer-two text-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <p class="mb-0 text-dark">© Copyright 2019. All right by yamiyami.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <!-- Back to top -->
+		<a href="#" class="ask-btn" data-toggle="modal" data-target="#pos-service-popup">Ask for Test Access</a>
+        <a href="#" class="back-to-top text-center shadow rounded-pill border" id="back-to-top"> 
+            <i class="mdi mdi-chevron-up d-block"> </i> 
+        </a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <!-- SLIDER -->
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/owlcarousel.init.js"></script>
+        <!-- Portfolio -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/portfolio-filter.js"></script> 
+        <script src="js/magnific.init.js"></script> 
+        <!--FLEX SLIDER-->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/flexslider.init.js"></script>
+        <!-- Parallax JS -->
+        <script src="js/parallax.js"></script>   
+        <!-- Datepicker -->
+        <script src="js/moment.js"></script> 
+        <script src="js/jquery.timepicker.min.js"></script> 
+        <script src="js/bootstrap-datepicker.min.js"></script>    
+        <script src="js/datetimepicker.init.js"></script>
+        <!-- Main Js -->
+		<script src="js/script.js"></script>
+        <script src="js/app.js"></script>
+		
+		
+		<div class="modal fade in" id="pos-service-popup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="z-index: 9999;">
+        <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+					<div class="modal-header"><h5 class="m-auto">Contact Us</h5></div>
+                  <div class="modal-body pt-1 pos-pop-up-form">
+					  <nav class="nav-justified pos-service-popup">
+						  <div class="nav nav-tabs" id="nav-tab" role="tablist" style="margin-left:-16px;margin-right: -16px;">
+							<a class="nav-item nav-link active" id="pop1-tab" data-toggle="tab" href="#deliver" role="tab" aria-controls="pop1" aria-selected="true">
+								Deliver
+							</a>
+							<a class="nav-item nav-link" id="pop2-tab" data-toggle="tab" href="#dinners" role="tab" aria-controls="pop2" aria-selected="false">
+								Dinners
+							</a>
+							<a class="nav-item nav-link" id="pop3-tab" data-toggle="tab" href="#partyservice" role="tab" aria-controls="pop3" aria-selected="false">
+								Partyservice
+							</a>
+							<a class="nav-item nav-link" id="pop4-tab" data-toggle="tab" href="#restaurants" role="tab" aria-controls="pop3" aria-selected="false">
+								Restaurants
+							</a>
+						  </div>
+						</nav>
+					  <div class="tab-content" id="nav-tabContent">
+						  <div class="tab-pane fade show active" id="deliver" role="tabpanel" aria-labelledby="pop1-tab">
+								<form>
+									<div class="row">
+										<div class="col-lg-12">
+											<ul class="list-inline mb-0 select-service-li">
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">POS</button>
+														<input type="checkbox" class="d-none"/>
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Online Shop</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Table App</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+											</ul>
+										</div>
+									  </div>
+									<hr class="hr">
+									<div class="row" style="padding-top: 15px;">
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Person Name</label>
+												<input type="text" placeholder="Enter Person name" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Last Name</label>
+												<input type="text" placeholder="Enter Lastname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Email Address</label>
+												<input type="text" placeholder="Enter Email address" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Mobile Number</label>
+												<input type="text" placeholder="Enter Mobile number" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Shopname</label>
+												<input type="text" placeholder="Enter Shopname" class="form-control">
+											</div>
+										</div>
+									</div>
+							    </form>
+							  </div>
+						  <div class="tab-pane fade" id="dinners" role="tabpanel" aria-labelledby="pop2-tab">
+							   <form>
+								   <div class="row">
+									<div class="col-lg-12">
+										<ul class="list-inline mb-0 select-service-li">
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">POS</button>
+														<input type="checkbox" class="d-none"/>
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Online Shop</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Table App</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+											</ul>
+									</div>
+								  </div>
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Person Name</label>
+												<input type="text" placeholder="Enter Person name" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Last Name</label>
+												<input type="text" placeholder="Enter Lastname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Shopname</label>
+												<input type="text" placeholder="Enter Shopname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Mobile Number</label>
+												<input type="text" placeholder="Enter Mobile number" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Email Address</label>
+												<input type="text" placeholder="Enter Email address" class="form-control">
+											</div>
+										</div>
+									</div>
+							    </form>
+						  </div>
+						  <div class="tab-pane fade" id="partyservice" role="tabpanel" aria-labelledby="pop3-tab">
+							   <form>
+								   <div class="row">
+									<div class="col-lg-12">
+										<ul class="list-inline mb-0 select-service-li">
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">POS</button>
+														<input type="checkbox" class="d-none"/>
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Online Shop</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Table App</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+											</ul>
+									</div>
+								  </div>
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Person Name</label>
+												<input type="text" placeholder="Enter Person name" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Last Name</label>
+												<input type="text" placeholder="Enter Lastname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Shopname</label>
+												<input type="text" placeholder="Enter Shopname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Mobile Number</label>
+												<input type="text" placeholder="Enter Mobile number" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Email Address</label>
+												<input type="text" placeholder="Enter Email address" class="form-control">
+											</div>
+										</div>
+									</div>
+							    </form>
+						  </div>
+						  <div class="tab-pane fade" id="restaurants" role="tabpanel" aria-labelledby="pop3-tab">
+							   <form>
+								    <div class="row">
+										<div class="col-lg-12">
+											<ul class="list-inline mb-0 select-service-li">
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">POS</button>
+														<input type="checkbox" class="d-none"/>
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Online Shop</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+												<li class="list-inline-item">
+													<span class="button-checkbox">
+														<button type="button" class="btn btn-block" data-color="success">Table App</button>
+														<input type="checkbox" class="d-none" />
+													</span>
+												</li>
+											</ul>
+										</div>
+									  </div>
+									<div class="row">
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Person Name</label>
+												<input type="text" placeholder="Enter Person name" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Last Name</label>
+												<input type="text" placeholder="Enter Lastname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Shopname</label>
+												<input type="text" placeholder="Enter Shopname" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Mobile Number</label>
+												<input type="text" placeholder="Enter Mobile number" class="form-control">
+											</div>
+										</div>
+										<div class="col-lg-4">
+											<div class="form-group">
+												<label>Email Address</label>
+												<input type="text" placeholder="Enter Email address" class="form-control">
+											</div>
+										</div>
+									</div>
+							    </form>
+						  </div>
+						</div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Submit</button>
+                  </div>
+                </div>
+              </div>
+    	</div>
+	<div style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website&amp;utm_content=footer_img"><img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com"></a></div><script>function getCookie(t){for(var e=t+"=",n=decodeURIComponent(document.cookie).split(";"),o=0;o<n.length;o++){for(var i=n[o];" "==i.charAt(0);)i=i.substring(1);if(0==i.indexOf(e))return i.substring(e.length,i.length)}return""}getCookie("hostinger")&&(document.cookie="hostinger=;expires=Thu, 01 Jan 1970 00:00:01 GMT;",location.reload());var wordpressAdminBody=document.getElementsByClassName("wp-admin")[0],notification=document.getElementsByClassName("notice notice-success is-dismissible"),hostingerLogo=document.getElementsByClassName("hlogo"),mainContent=document.getElementsByClassName("notice_content")[0];if(null!=wordpressAdminBody&&notification.length>0&&null!=mainContent){var googleFont=document.createElement("link");googleFontHref=document.createAttribute("href"),googleFontRel=document.createAttribute("rel"),googleFontHref.value="https://fonts.googleapis.com/css?family=Roboto:300,400,600",googleFontRel.value="stylesheet",googleFont.setAttributeNode(googleFontHref),googleFont.setAttributeNode(googleFontRel);var css="@media only screen and (max-width: 576px) {#main_content {max-width: 320px !important;} #main_content h1 {font-size: 30px !important;} #main_content h2 {font-size: 40px !important; margin: 20px 0 !important;} #main_content p {font-size: 14px !important;} #main_content .content-wrapper {text-align: center !important;}} @media only screen and (max-width: 781px) {#main_content {margin: auto; justify-content: center; max-width: 445px;}} @media only screen and (max-width: 1325px) {.web-hosting-90-off-image-wrapper {position: absolute; max-width: 95% !important;} .notice_content {justify-content: center;} .web-hosting-90-off-image {opacity: 0.3;}} @media only screen and (min-width: 769px) {.notice_content {justify-content: space-between;} #main_content {margin-left: 5%; max-width: 445px;} .web-hosting-90-off-image-wrapper {position: absolute; right: 0; display: flex; padding: 0 5%}} .web-hosting-90-off-image {max-width: 90%;} .content-wrapper {z-index: 5} .notice_content {display: flex; align-items: center;} * {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;} .upgrade_button_red_sale{box-shadow: 0 2px 4px 0 rgba(255, 69, 70, 0.2); max-width: 350px; border: 0; border-radius: 3px; background-color: #ff4546 !important; padding: 15px 55px !important;  margin-bottom: 48px; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: 600; color: #ffffff;} .upgrade_button_red_sale:hover{color: #ffffff !important; background: #d10303 !important;}",style=document.createElement("style"),sheet=window.document.styleSheets[0];style.styleSheet?style.styleSheet.cssText=css:style.appendChild(document.createTextNode(css)),document.getElementsByTagName("head")[0].appendChild(style),document.getElementsByTagName("head")[0].appendChild(googleFont);var button=document.getElementsByClassName("upgrade_button_red")[0],link=button.parentElement;link.setAttribute("href","https://www.hostinger.com/hosting-starter-offer?utm_source=000webhost&utm_medium=panel&utm_campaign=000-wp"),link.innerHTML='<button class="upgrade_button_red_sale">TRANSFER NOW</button>',(notification=notification[0]).setAttribute("style","padding-bottom: 0; padding-top: 5px; background-color: #313134; background-size: cover; background-repeat: no-repeat; color: #ffffff; border-color: #ff123a; border-width: 8px;"),notification.className="notice notice-error is-dismissible";var mainContentHolder=document.getElementById("main_content");mainContentHolder.setAttribute("style","padding: 0;"),hostingerLogo[0].remove();var h1Tag=notification.getElementsByTagName("H1")[0];h1Tag.className="000-h1",h1Tag.innerHTML="Black Friday Sale",h1Tag.setAttribute("style",'color: white;  margin-top: 48px; font-family: "Roboto", sans-serif; font-size: 48px; font-weight: 600;');var h2Tag=document.createElement("H2");h2Tag.innerHTML="Get 90% Off!",h2Tag.setAttribute("style",'color: white; margin: 45px 0; font-family: "Roboto", sans-serif; font-size: 80px; font-weight: 600;'),h1Tag.parentNode.insertBefore(h2Tag,h1Tag.nextSibling);var paragraph=notification.getElementsByTagName("p")[0];paragraph.innerHTML="Don’t miss the opportunity to enjoy up to <strong>4x WordPress Speed, Free SSL and all premium features</strong> available for a fraction of the price!",paragraph.setAttribute("style",'font-family: "Roboto", sans-serif; font-size: 18px; font-weight: 300;');var list=notification.getElementsByTagName("UL")[0];list.remove();var org_html=mainContent.innerHTML,new_html='<div class="content-wrapper">'+mainContent.innerHTML+'</div><div class="web-hosting-90-off-image-wrapper"><img class="web-hosting-90-off-image" src="https://cdn.000webhost.com/000webhost/promotions/black-friday-2019-wordpress.png"></div>';mainContent.innerHTML=new_html;var saleImage=mainContent.getElementsByClassName("web-hosting-90-off-image")[0]}</script></body>
+</html>
